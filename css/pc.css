@@ -1,0 +1,315 @@
+@media all and (min-width:1024px){
+   
+    .wrap{
+        height: calc(100vh + 1000px);
+        position: sticky;
+        top: 0;
+    }
+    .wrap2, .wrap3{
+        position: relative;
+    }
+    .shape_wrap{
+        margin: 10% auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sqshape{
+        background-image: url(../img/sqgr1.png);
+        background-size: 100% 100%;
+    }
+    .coshape{
+        background-image: url(../img/cogr1.png);
+        background-size: 100% 100%;
+    }
+    .amshape{
+        background-image: url(../img/amgr1.png);
+        background-size: 100% 100%;
+    }
+    .roshape{
+        background-image: url(../img/rogr1.png);
+        background-size: 100% 100%;
+    }
+
+    .mt_1{
+        margin-left: 6vw;
+    }
+    .mt_2{
+        margin-left: 7.5vw;
+    }
+    .mt_3{
+        margin-left: 6.5vw;
+    }
+    .mt_4{
+        margin-left: 6vw;
+    }
+
+    .w2t{
+        font-size: 1rem;
+        font-weight: 900;
+        color: white;
+    }
+
+    .skill_box{
+        position: relative;
+    }
+    .skill{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        text-align: center;
+        line-height: 45;
+        top: 40%;
+        left: 50%;
+        margin-top: -30vw;
+    }
+
+    .sk_text{
+        display: none;
+    }
+
+    .sk_1{
+        transform: rotate(-75deg) translate(-22vw, -46vw);
+        background-image: url(../img/ps_icon.png);
+        background-size: 100% 100%;
+    }
+    .sk_2{
+        transform: rotate(-45deg) translate(-23vw, -34vw);
+        background-image: url(../img/il_icon.png);
+        background-size: 100% 100%;
+    }
+    .sk_3{
+        transform: rotate(-15deg) translate(-18vw, -24vw);
+        background-image: url(../img/ht_icon.png);
+        background-size: 100% 100%;
+    }
+    .sk_4{
+        transform: rotate(25deg) translate(-9vw, -15vw);
+        background-image: url(../img/cs_icon.png);
+        background-size: 100% 100%;
+    }
+    .sk_5{
+        transform: rotate(55deg) translate(5vw, -14vw);
+        background-image: url(../img/js_icon.png);
+        background-size: 100% 100%;
+    }
+    .sk_6{
+        transform: rotate(85deg) translate(15vw, -20vw);
+        background-image: url(../img/jq_icon.png);
+        background-size: 100% 100%;
+    }
+
+    /* 스킬 */
+
+    /* .skill{
+        opacity: 0;
+    } */
+
+    .wrap2_1:hover .sk_1{
+        opacity: 1;
+        transition: 0.3s;
+    }
+    .wrap2_1:hover .sk_2{
+        opacity: 1;
+        transition: 1.3s;
+    }
+    .wrap2_1:hover .sk_3{
+        opacity: 1;
+        transition: 2.3s;
+    }
+    .wrap2_1:hover .sk_4{
+        opacity: 1;
+        transition: 3.3s;
+    }
+    .wrap2_1:hover .sk_5{
+        opacity: 1;
+        transition: 4.3s;
+    }
+    .wrap2_1:hover .sk_6{
+        opacity: 1;
+        transition: 5.3s;
+    }
+    .about_text_box{
+        padding: 7vw;
+        box-sizing: border-box;
+    }
+    .w2t{
+        line-height: 1.8;
+        font-size: 1rem;
+        color: black;
+    }
+    .w2t_mo{
+        display: none;
+    }
+
+    .w2t_0{
+        margin-top: 6vw;
+        font-size: 2rem
+    }
+    .w2t_1{
+        margin-top: -6vw;
+        margin-left: 16vw;
+        font-size: 2.2rem
+    }
+    .w2t_2{
+        margin-top: 2.5vw;
+        margin-left: 16vw;
+        font-size: 2rem
+    }
+    .w2t_3{
+        margin-top: -15vw;
+        margin-left: 33vw;
+    }
+    .w2t_4{
+        margin-top: 2vw;
+        margin-left: 33vw;
+    }
+    .w2t_5{
+        margin-top: 1.5vw;
+        margin-left: 33vw;
+    }
+    .w2t_6{
+        margin-top: 2vw;
+        margin-left: 33vw;
+        font-size: 1.4rem;
+    }
+    .w2t_7{
+        margin-top: 2.2vw;
+        margin-left: 33vw;
+    }
+    .w2t_pc{
+        margin-top: 0.5vw;
+        margin-left: 33vw;
+        line-height: 1.8;
+        font-size: 1rem;
+        font-weight: 900;
+        color: black;
+    }
+
+    .w3left{
+        text-align: center;
+    }
+
+    .w3r_box{
+        /* opacity: 0.9; */
+        font-size: 1.8rem;
+        font-weight: 800;
+        line-height: 45vw;
+        text-shadow: 0.1px 5px 5px black;
+    }
+
+    .w3r_box1{
+        background-image: url(../img/e_b.jpg);
+        background-size: 100% 100%;
+    }
+    .w3r_box2{
+        background-image: url(../img/p_b.jpg);
+        background-size: 100% 100%;
+    }
+    .w3r_box3{
+        background-image: url(../img/g_b.jpg);
+        background-size: 100% 100%;
+    }    
+    .w3r_box4{
+        background-image: url(../img/v_b.png);
+        background-size: 100% 100%;
+    }
+
+    
+
+    .link{
+        width: 250px;
+        height: 200px;
+        background: beige;
+        margin-top: 20vh;
+        margin-left: 10%;
+    }
+
+
+    .w3l_box{
+        font-weight: 900;
+        color: black;
+        box-sizing: border-box;
+        font-size: 1.4rem;
+    }
+    .w3l_box4{
+        line-height: 4.5;
+        padding-top: 20%;
+    }
+    .w3l_box1,.w3l_box2,.w3l_box3{
+        line-height: 5.5;
+        padding-top: 22%;
+    }
+
+    .w3r_move{
+        background: black;
+    }
+    
+
+    .contect_box{
+        position: absolute;
+        top: 27vw;
+        left: 28vw;
+        /* border: 1px solid white; */
+    }
+
+    .m_icon{
+        background-image: url(../img/m_icon.png);
+        background-size: 100% 100%;
+        margin-top: 8.4vw;
+        margin-left: 6vw;
+        float: left;
+    }
+
+    .c_text{
+        
+        color: white;
+        float: left;
+    }
+
+    .c_text1{
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-left: 4vw;
+        margin-bottom: 4vw;
+        margin-top: 2.5vw;
+    }
+    .c_text2{
+        font-size: 2.2rem;
+        margin-left: 12vw;
+        margin-top: -3.2vw;
+    }
+
+    .wrap4{
+        display: none;
+    }
+
+    .portfolio_text{
+        display: none;
+    }
+
+    .wrap5{
+        width: 100%;
+        height: 150px;
+        background: black;
+        font-size: 1rem;
+        font-weight: 900;
+        color: white;
+        text-align: center;
+        line-height: 150px;
+    }
+
+    .resume_pc{
+        border-radius: 500vw;
+        background: white;
+        margin: 16vw auto;
+        text-align: center;
+        line-height: 4.1;
+        font-weight: 900;
+        /* float: left; */
+        font-size: 1.2rem;
+    }
+    .resume_pc a{
+        color: black;
+        text-shadow: 1px 1px 3px gray;
+    }
+
+}
